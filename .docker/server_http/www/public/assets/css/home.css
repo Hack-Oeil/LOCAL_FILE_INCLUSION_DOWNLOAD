@@ -1,0 +1,40 @@
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  background: #f8f9fa;
+}
+header {
+  background: url('../images/hotel-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 60px 0;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+header h1 {
+  font-size: 3rem;
+}
+
+.featuresPro {
+  margin-bottom: 30px;
+}
+.featuresPro img {
+  max-width: 60px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background: #595A5A;
+  color: white;
+  text-align:center;
+  padding: 20px;
+}
+
+a {
+  color: #473D37; /* bleu élégant */
+  text-decoration: none; /* enlève le soulignement */
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #2C282B; /* bleu foncé au survol */
+  text-decoration: underline;
+}
